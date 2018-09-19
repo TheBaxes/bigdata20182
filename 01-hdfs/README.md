@@ -92,11 +92,7 @@ comandos:
     chown <username> files   cambiar el dueño de un archivo
     chgrp <group> files      cambiar el grupo de un archivo
 
-## 3. EXTRACCIÓN DE DATOS DESDE RDBMS VIA SQOOP HACIA HDFS
-
---> Importar datos de Bases de datos relacionales tipo Mysql hacia HDFS [Sqoop](mysql2hdfs.md)
-
-## 4. GESTIÓN DE ARCHIVOS VÍA AMBARI WEB
+## 3. GESTIÓN DE ARCHIVOS VÍA AMBARI WEB
 
 * Login
 

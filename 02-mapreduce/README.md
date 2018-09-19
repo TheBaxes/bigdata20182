@@ -59,7 +59,7 @@ primero instalar pyenv (https://github.com/pyenv/pyenv-installer)
 * Probar mrjob python local:
 
 >		user@master$ cd 02-mapreduce
->		user@master$ python wordcount-mr.py /datasets/gutenberg-small/1*.txt
+>		user@master$ python wordcount-mr.py /datasets/gutenberg-small/*.txt
 
 * Ejecutar mrjob python en Hadoop con datos en hdfs:
 
