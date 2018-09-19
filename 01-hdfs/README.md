@@ -8,14 +8,14 @@
 
 ## Por Terminal o Ambari Web:
 
-* con VPN ssh: 10.131.137.X -p 2222 y ambari-web: 10.131.137.X:8080
-* sin VPN https://shellX.dis.eafit.edu.co y ambari-web: https://hortonX.dis.eafit.edu.co 
+* con VPN terminal: 10.131.137.X -p 2222 y ambari-web: 10.131.137.X:8080
+* sin VPN terminal-web: https://shellX.dis.eafit.edu.co y ambari-web: https://hortonX.dis.eafit.edu.co 
 
 ## 2. GESTIÓN DE ARCHIVOS EN HDFS VÍA TERMINAL
 
 1. Cargar los datos de los datasets de trabajo del curso en HDFS 
 2. Cada alumno creara en hdfs un directorio 'datasets' en su 'home'
-3. En ese 'datasets' los archivos ya deben estar descomprimidos para ser procesables.
+3. En 'datasets' los archivos ya deben estar descomprimidos para ser procesables.
 4. Datasets: [DATASETS](../datasets)
 
 ### Listar archivos HDFS
@@ -29,15 +29,14 @@ Para efectos de esta guia, es equivalente el comando "hadoop fs" y "hdfs dfs". L
 
 ### Crear tu propio directorio de 'datasets' en HDFS
 
-    user@master$ hdfs dfs -mkdir /user/<username>
     user@master$ hdfs dfs -mkdir /user/<username>/datasets
 
 Nota: reemplace '<username>' por aca usuario asignado
 
 ### Copiar archivos locales (al servidor gateway) hacia HDFS
 
-Se asume que tiene los datos LOCALES se encuentran en /datasets
-Tambien están en este github, y por terminal debería copiarlos por SSH/SCP al servidor Gateway por la VPN (no disponible para este curso)
+Se asume que tiene los datos LOCALES se encuentran en /datasets en el gateway
+Tambien están en este github, y por terminal debería copiarlos por SSH/SCP al servidor Gateway por la VPN.
 
 Lo podrá hacer desde su PC vía Ambari Web 
 
