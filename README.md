@@ -22,3 +22,7 @@
 ## Labs semana5 - hive-sqoop-hbase
 
 * [Semana5-hive-sqoop](05-hive-sqoop)
+
+## Labs semana5 - hbase
+
+* [Semana5-hbase](06-hbase)
